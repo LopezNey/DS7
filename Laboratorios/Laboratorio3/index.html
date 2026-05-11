@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laboratorio 3</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="procesarPost.php" method="POST">
+        <label>Nombre:</label>
+        <input type="text" name="nombre"><br>
+        <label>Email:</label>
+        <input type="email" name="email"><br>
+        <label>Cedula:</label>
+        <input type="text" name="cedula"><br>
+        <label>Edad:</label>
+        <input type="number" name="edad"><br>
+        <input type="submit" value="Registrar">
+    </form>
+    <form action="procesarGet.php" method="GET">
+        <label>Nombre:</label>
+        <input type="text" name="nombre"><br>
+        <label>Peso(kg):</label>
+        <input type="number" name="peso"><br>
+        <label>Altura:</label>
+        <input type="number" name="altura" placeholder="metros, ej: 1.75"><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
